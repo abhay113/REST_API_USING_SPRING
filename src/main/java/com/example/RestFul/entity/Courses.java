@@ -1,7 +1,10 @@
 package com.example.RestFul.entity;
 
-public class Courses {
+import jakarta.persistence.*;
 
+@Entity
+public class Courses {
+	@Id
 	private int cid;
 	private String name;
 	private String duration;

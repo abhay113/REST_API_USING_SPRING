@@ -9,4 +9,5 @@ public interface CourseService {
 	public Courses getCourse(int CourseId);
 	public Courses addCourse(Courses c);
 	public Courses updateCourse(Courses c);
+	public void deleteCourse(int parseInt);
 }
